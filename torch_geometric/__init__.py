@@ -35,3 +35,6 @@ __all__ = [
     'torch_geometric',
     '__version__',
 ]
+
+# add transpile methods to top level
+from .transpile import unify, to_ivy, to_tensorflow, to_jax, to_numpy, to_paddle
